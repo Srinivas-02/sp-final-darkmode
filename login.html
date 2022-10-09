@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <script  type="module" src="login.js" async></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Simple Translator</h1>
+        <ul class="navs">
+            <li><a href="driver.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><img src="moon.png" alt="moonicon" id="icon"></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="abc">
+            <label for="username">Enter Username <span>:</span> </label> 
+            <input type="text"  id="username" placeholder="Enter Username"><br><br>
+        </div>
+        <div class="abc">
+            <label for="mail"> Enter Mail <span>:</span></label>
+            <input type="text"  id="mail" placeholder="Enter Mail"><br><br>
+        </div>
+        <div class="abc">
+            <label for="pass">Enter Password <span>:</span></label>
+            <input type="text"  id="pass" placeholder="Enter Password"><br><br>
+        </div>
+        <div>
+        <select  id="lang">
+            <!-- <option value="te">Telugu</option> -->
+            <option value="hi">Hindi</option>
+            <!-- <option value="ta">Tamil</option> -->
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+        </select>
+        </div>
+        <button id="login"> Login </button>
+    </div>
+    <footer> 
+        <hr>
+        <div class="footericons">
+            <p>facebook</p>
+            <p>twitter</p>
+            <p>contact us</p>
+        </div>
+    </footer>
+</body>
+</html>
